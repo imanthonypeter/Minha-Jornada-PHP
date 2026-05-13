@@ -1,0 +1,15 @@
+# Configurações de ambiente
+.env
+
+# Pastas de dependências
+node_modules/
+vendor/
+
+# Sistema e Logs
+.DS_Store
+*.log
+Thumbs.db
+
+# Arquivos temporários/redundantes
+AboutMe/about.html
+temp/

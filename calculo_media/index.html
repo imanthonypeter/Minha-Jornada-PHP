@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Média - Estudante</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Botão Voltar -->
+    <a href="../index.html" class="btn-voltar">
+        <i class="ph ph-arrow-left"></i>
+        Voltar ao Hub
+    </a>
+
+    <div class="container">
+        <h1>Cálculo de Média</h1>
+        <p class="subtitle">Insira as notas do aluno para calcular a média final.</p>
+
+        <form action="processar.php" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome do Aluno</label>
+                <input type="text" id="nome" name="nome" placeholder="Ex: João Silva" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nota1">Primeira Nota</label>
+                <input type="number" id="nota1" name="nota1" step="0.1" min="0" max="20" placeholder="0.0 a 20.0"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="nota2">Segunda Nota</label>
+                <input type="number" id="nota2" name="nota2" step="0.1" min="0" max="20" placeholder="0.0 a 20.0"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="nota3">Terceira Nota</label>
+                <input type="number" id="nota3" name="nota3" step="0.1" min="0" max="20" placeholder="0.0 a 20.0"
+                    required>
+            </div>
+
+            <button type="submit">Calcular Média</button>
+        </form>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <p>© 2026 - Feito por <a href="../AboutMe/about.php" style="color: inherit; text-decoration: none;"><b>António Pedro</b></a></p>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</body>
+
+</html>
