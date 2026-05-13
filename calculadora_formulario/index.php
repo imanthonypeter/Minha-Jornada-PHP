@@ -51,12 +51,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </head>
 
 <body class="bg-light min-h-screen relative pb-5">
-    <!-- Botão Voltar -->
-    <a href="../index.html" class="btn btn-light shadow-sm border rounded-pill position-fixed top-0 start-0 m-4 z-3 flex align-items-center gap-2 px-3 py-2" style="font-weight: 600; font-size: 0.85rem;">
-        ← Voltar ao Hub
-    </a>
-
     <div class="container py-5 mt-4">
+        <!-- Botão Voltar (Estilo Premium) -->
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-8 col-lg-6">
+                <a href="../index.html" 
+                   class="d-inline-flex align-items-center gap-2 text-secondary text-decoration-none fw-bold small bg-white bg-opacity-50 border border-secondary border-opacity-10 px-3 py-2 rounded-pill shadow-sm hover-bg-white transition-all">
+                    <i class="ph-bold ph-arrow-left"></i>
+                    Voltar ao Hub
+                </a>
+            </div>
+        </div>
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
                 <div class="card shadow-sm border-0 rounded-4">

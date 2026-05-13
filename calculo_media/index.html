@@ -12,13 +12,18 @@
 </head>
 
 <body>
-    <!-- Botão Voltar -->
-    <a href="../index.html" class="btn-voltar">
-        <i class="ph ph-arrow-left"></i>
-        Voltar ao Hub
-    </a>
-
     <div class="container">
+        <!-- Botão Voltar (Estilo Premium) -->
+        <div style="margin-bottom: 20px; margin-left: -5px;">
+            <a href="../index.html" 
+               style="display: inline-flex; align-items: center; gap: 8px; color: #64748b; text-decoration: none; font-weight: 600; font-size: 0.875rem; padding: 8px 16px; border-radius: 100px; background: rgba(255,255,255,0.5); backdrop-filter: blur(4px); border: 1px solid rgba(226,232,240,0.5); transition: all 0.3s ease;"
+               onmouseover="this.style.color='#6366f1'; this.style.background='#fff'; this.style.borderColor='#e2e8f0';"
+               onmouseout="this.style.color='#64748b'; this.style.background='rgba(255,255,255,0.5)'; this.style.borderColor='rgba(226,232,240,0.5)';"
+               class="group">
+                <i class="ph-bold ph-arrow-left"></i>
+                Voltar ao Hub
+            </a>
+        </div>
         <h1>Cálculo de Média</h1>
         <p class="subtitle">Insira as notas do aluno para calcular a média final.</p>
 

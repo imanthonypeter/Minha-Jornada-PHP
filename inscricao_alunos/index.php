@@ -31,13 +31,14 @@ try {
 </head>
 
 <body class="bg-slate-50 text-slate-800 min-h-screen py-10 px-4 sm:px-6 lg:px-8 relative pb-24">
-    <!-- Botão Voltar -->
-    <a href="../index.html" class="fixed top-6 left-6 bg-white shadow-sm border border-slate-200 text-slate-600 px-4 py-2 rounded-xl flex items-center gap-2 hover:bg-slate-50 transition-all group z-50 text-sm font-semibold no-underline">
-        <i class="ph ph-arrow-left group-hover:-translate-x-1 transition-transform"></i>
-        Voltar ao Hub
-    </a>
-
     <div class="max-w-6xl mx-auto space-y-8">
+        <!-- Botão Voltar (Estilo Premium) -->
+        <div class="flex items-center" style="margin-bottom: -15px;">
+            <a href="../index.html" class="inline-flex items-center gap-2 text-slate-500 hover:text-indigo-600 transition-all font-semibold text-sm group bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full border border-slate-200/50 hover:border-indigo-200 hover:bg-white shadow-sm no-underline">
+                <i class="ph-bold ph-arrow-left group-hover:-translate-x-1 transition-transform"></i>
+                Voltar ao Hub
+            </a>
+        </div>
 
         <!-- Cabeçalho -->
         <div class="text-center">

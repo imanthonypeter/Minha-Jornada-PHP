@@ -46,6 +46,18 @@ $instagram_link = "https://www.instagram.com/imanthonypeter?igsh=cXdtbWxxbnJld24
 <body>
     <div class="about-container">
         <div class="glass-card">
+            <!-- Botão Voltar (Premium) -->
+            <div style="width: 100%; display: flex; justify-content: flex-start; margin-bottom: 20px;">
+                <a href="../index.html" 
+                   style="display: inline-flex; align-items: center; gap: 8px; color: rgba(255,255,255,0.7); text-decoration: none; font-weight: 600; font-size: 0.8rem; padding: 6px 14px; border-radius: 100px; background: rgba(255,255,255,0.1); backdrop-filter: blur(4px); border: 1px solid rgba(255,255,255,0.1); transition: all 0.3s ease;"
+                   onmouseover="this.style.color='#fff'; this.style.background='rgba(255,255,255,0.2)'; this.style.borderColor='rgba(255,255,255,0.3)';"
+                   onmouseout="this.style.color='rgba(255,255,255,0.7)'; this.style.background='rgba(255,255,255,0.1)'; this.style.borderColor='rgba(255,255,255,0.1)';"
+                   class="group">
+                    <i class="ph-bold ph-arrow-left"></i>
+                    Voltar ao Portal
+                </a>
+            </div>
+
             <!-- Foto do Boss -->
             <div class="profile-pic-container">
                 <div class="profile-pic">
@@ -86,10 +98,6 @@ $instagram_link = "https://www.instagram.com/imanthonypeter?igsh=cXdtbWxxbnJld24
                 </a>
             </div>
 
-            <a href="../index.html" class="btn-back">
-                <i class="ph ph-arrow-left"></i>
-                Voltar ao Portal
-            </a>
         </div>
     </div>
 </body>

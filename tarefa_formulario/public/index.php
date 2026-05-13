@@ -176,14 +176,15 @@ $error_msg = ($db === null) ? "Falha na conexão com o banco de dados. Verifique
 </head>
 
 <body class="bg-[#f5f7fa] text-slate-800 min-h-screen relative pb-20">
-    <!-- Botão Voltar -->
-    <a href="../../index.html"
-        class="fixed top-6 left-6 bg-white shadow-sm border border-slate-200 text-slate-600 px-4 py-2 rounded-xl flex items-center gap-2 hover:bg-slate-50 transition-all group z-50 text-sm font-semibold">
-        <i class="ph ph-arrow-left group-hover:-translate-x-1 transition-transform"></i>
-        Voltar ao Hub
-    </a>
-
     <div class="container py-12">
+        <!-- Botão Voltar (Estilo Premium) -->
+        <div style="margin-bottom: -10px; margin-left: 5px;">
+            <a href="../../index.html"
+                class="inline-flex items-center gap-2 text-slate-500 hover:text-indigo-600 transition-all font-semibold text-sm group bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full border border-slate-200/50 hover:border-indigo-200 hover:bg-white shadow-sm">
+                <i class="ph-bold ph-arrow-left group-hover:-translate-x-1 transition-transform"></i>
+                Voltar ao Hub
+            </a>
+        </div>
         <!-- Formulário -->
         <div class="card">
             <h1>📝 Inscrição de Alunos</h1>
